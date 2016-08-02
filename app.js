@@ -16,6 +16,7 @@ things[1] = "brian regan";
 things[2] = "thenewboston";
 
 document.write(things[1]);
+document.write("<br>");
 
 var stuff = new Array();
 
@@ -23,3 +24,16 @@ stuff[0] = "toolbox";
 stuff[1] = 123;
 
 document.write(stuff[1]);
+document.write("<br>");
+
+/****************************************************
+*           Array Properties and Methods            *
+****************************************************/
+var dudes = new Array("Bucky", "Dan", "Randy");
+var gals = new Array("Lisa", "Erin", "Hannah");
+
+var people = dudes.concat(gals);
+
+document.write(people[5]);
+document.write("<br>");
+document.write(people.length);
